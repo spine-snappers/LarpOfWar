@@ -7,7 +7,7 @@ INSTALL_DIR="$HOME/.local/bin"
 mkdir -p "$INSTALL_DIR"
 
 cp "$SCRIPT_DIR/LarpOfWar.jar" "$INSTALL_DIR/LarpOfWar.jar"
-cp "$SCRIPT_DIR/larpofwar" "$INSTALL_DIR/larpofwar"
+cp "$SCRIPT_DIR/larpofwar.sh" "$INSTALL_DIR/larpofwar"
 chmod +x "$INSTALL_DIR/larpofwar"
 
 echo "Installed to $INSTALL_DIR"
